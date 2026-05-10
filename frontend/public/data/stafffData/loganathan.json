@@ -1,0 +1,191 @@
+[
+    {
+        "serialNumber": 1,
+        "accessionNumber": "98834",
+        "dateOfIssue": "2016-11-30",
+        "dateOfReturn": "2018-07-03",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 2,
+        "accessionNumber": "61498",
+        "dateOfIssue": "2016-11-30",
+        "dateOfReturn": "2018-07-17",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 3,
+        "accessionNumber": "68504",
+        "dateOfIssue": "2016-11-30",
+        "dateOfReturn": "2018-07-17",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 4,
+        "accessionNumber": "66725",
+        "dateOfIssue": "2011-12-23",
+        "dateOfReturn": "2018-07-17",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 5,
+        "accessionNumber": "65780",
+        "dateOfIssue": "2011-12-23",
+        "dateOfReturn": "2018-08-24",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 6,
+        "accessionNumber": "65778",
+        "dateOfIssue": "2011-12-23",
+        "dateOfReturn": "2018-07-17",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 7,
+        "accessionNumber": "58213",
+        "dateOfIssue": "2011-12-23",
+        "dateOfReturn": "2018-07-17",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 8,
+        "accessionNumber": "59839",
+        "dateOfIssue": "2017-06-27",
+        "dateOfReturn": "2018-07-20",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 9,
+        "accessionNumber": "68503",
+        "dateOfIssue": "2017-06-27",
+        "dateOfReturn": "2018-07-20",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 10,
+        "accessionNumber": "60819",
+        "dateOfIssue": "2017-06-27",
+        "dateOfReturn": "2018-07-24",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 11,
+        "accessionNumber": "60960",
+        "dateOfIssue": "2017-06-27",
+        "dateOfReturn": "2018-07-17",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 12,
+        "accessionNumber": "61637",
+        "dateOfIssue": "2017-06-27",
+        "dateOfReturn": "2018-07-20",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 13,
+        "accessionNumber": "59924",
+        "dateOfIssue": "2017-06-27",
+        "dateOfReturn": "2018-07-17",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 14,
+        "accessionNumber": "98828",
+        "dateOfIssue": "2018-01-18",
+        "dateOfReturn": "2018-07-17",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 15,
+        "accessionNumber": "60003",
+        "dateOfIssue": "2018-01-18",
+        "dateOfReturn": "2018-07-03",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 16,
+        "accessionNumber": "66469",
+        "dateOfIssue": "2018-01-18",
+        "dateOfReturn": "2018-07-03",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 17,
+        "accessionNumber": "59923",
+        "dateOfIssue": "2018-07-03",
+        "dateOfReturn": "2018-12-14",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 18,
+        "accessionNumber": "100263",
+        "dateOfIssue": "2018-07-03",
+        "dateOfReturn": "2019-01-03",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 19,
+        "accessionNumber": "98834",
+        "dateOfIssue": "2018-12-14",
+        "dateOfReturn": "2019-07-10",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 20,
+        "accessionNumber": "100262",
+        "dateOfIssue": "2019-02-28",
+        "dateOfReturn": "2019-06-21",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 21,
+        "accessionNumber": "100263",
+        "dateOfIssue": "2019-06-21",
+        "dateOfReturn": "2021-01-20",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 22,
+        "accessionNumber": "96868",
+        "dateOfIssue": "2019-07-10",
+        "dateOfReturn": "2021-01-20",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 23,
+        "accessionNumber": "101556",
+        "dateOfIssue": "2019-11-25",
+        "dateOfReturn": "2021-01-20",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 24,
+        "accessionNumber": "96844",
+        "dateOfIssue": "2020-08-04",
+        "dateOfReturn": "2021-01-20",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 25,
+        "accessionNumber": "101556",
+        "dateOfIssue": "2020-08-04",
+        "dateOfReturn": "2021-11-18",
+        "status": "returned"
+    },
+    {
+        "serialNumber": 26,
+        "accessionNumber": "101556",
+        "dateOfIssue": "2021-11-18",
+        "dateOfReturn": null,
+        "status": "issued"
+    },
+    {
+        "serialNumber": 27,
+        "accessionNumber": "58667",
+        "dateOfIssue": "2021-12-12",
+        "dateOfReturn": null,
+        "status": "issued"
+    }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-01-28T10:15:00",
+    "action": "Activated user",
+    "target": "STU102",
+    "type": "user"
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-01-28T11:05:00",
+    "action": "Password reset",
+    "target": "LIB003",
+    "type": "security"
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-01-28T14:20:00",
+    "action": "Marked book as damaged",
+    "target": "Accession No: 53054",
+    "type": "book"
+  }
+]

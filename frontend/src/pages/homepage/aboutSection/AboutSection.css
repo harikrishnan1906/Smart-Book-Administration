@@ -1,0 +1,57 @@
+/* Section */
+#about {
+  background-color: var(--brightTextColor);
+  color: var(--darkerTextColor);
+  margin-top: 40px;
+}
+
+/* Title */
+.about-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+/* Card */
+.about-card {
+  background-color: var(--darkerTextColor);
+  color: var(--bgColor);
+  padding: 25px;
+  border-radius: 20px;
+  height: 100%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Icon */
+.about-icon {
+  font-size: 2.4rem;
+  width: 70px;
+  background-color: var(--bgColor);
+  color: var(--darkerTextColor);
+  padding: 14px;
+  border-radius: 50%;
+}
+
+/* Hover */
+.about-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 40px var(--darkerTextColor);
+  
+}
+
+/* Title */
+.about-card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* List */
+.about-card-list {
+  margin-top: 15px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.about-card-list li {
+  margin-bottom: 8px;
+}

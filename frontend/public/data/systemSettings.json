@@ -1,0 +1,7 @@
+{
+  "maxBooksPerStudent": 2,
+  "finePerDay": 10,
+  "returnPeriod": 14,
+  "academicYearStart": "2025-06-01",
+  "academicYearEnd": "2026-05-31"
+}

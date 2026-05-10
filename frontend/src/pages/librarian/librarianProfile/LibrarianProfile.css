@@ -1,0 +1,64 @@
+.librarian-profile-card {
+  background-color: var(--bgColor);
+  border-radius: 14px;
+}
+
+/* Profile Avatar */
+.profile-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--headerColor);
+}
+
+/* Profile Info Row */
+.profile-row {
+  background-color: var(--lightbgColor);
+  padding: 12px 14px;
+  border-radius: 10px;
+}
+
+.profile-label {
+  display: block;
+  font-size: 12px;
+  color: var(--darkTextColor);
+}
+
+.profile-value {
+  font-weight: 600;
+  color: var(--darkerTextColor);
+  word-break: break-word;
+}
+
+
+/* ===== CUSTOM MODAL SIZES ===== */
+
+.modal-dialog-custom {
+  max-width: 600px;
+  margin: auto;
+}
+
+.modal-lg-custom {
+  max-width: 900px; /* BIG modal for forms */
+  width: 95%;
+}
+
+/* Ensure modal is centered */
+.modal-backdrop-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+}
+
+/* Modal content rounding */
+.modal-content {
+  border-radius: 16px;
+}

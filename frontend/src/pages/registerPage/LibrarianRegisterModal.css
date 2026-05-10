@@ -1,0 +1,17 @@
+#inputDapartment{
+    max-width: 300px;
+}
+@media (width > 1200px) {
+    #inputDapartment{
+        width: 240px !important;
+    }
+}
+
+.modal-footer{
+    justify-content: center;
+}
+.custom-librarian-register-modal{
+    background : var(--lightGradientColor);
+    color: var(--brightTextColor);
+    border: none;
+}

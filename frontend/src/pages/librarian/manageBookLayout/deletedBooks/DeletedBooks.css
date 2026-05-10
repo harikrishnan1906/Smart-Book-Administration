@@ -1,0 +1,16 @@
+.deleted-books-card {
+  border-radius: 12px;
+  border: none;
+  background-color: var(--bgColor);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.section-heading {
+  font-weight: 600;
+  color: var(--darkerTextColor);
+}
+
+.table-header {
+  background-color: var(--headerColor);
+  color: var(--brightTextColor);
+}

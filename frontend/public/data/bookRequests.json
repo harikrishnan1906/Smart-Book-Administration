@@ -1,0 +1,43 @@
+[
+  {
+    "requestId": 101,
+    "requestType": "student",
+    "requestDate": "2026-02-02",
+
+    "student": {
+      "studentId": "24MIT401",
+      "name": "Arun Kumar",
+      "department": "Computer Science",
+      "year": "III Year"
+    },
+
+    "book": {
+      "accessionNo": "53054",
+      "title": "PROGRAMMING WITH FORTRAN",
+      "author": "SEYMOUR LIPSCHUTZ",
+      "publication": "SCHAUM'S OUTLINE SERIES",
+      "edition": "None"
+    }
+  },
+
+  {
+    "requestId": 102,
+    "requestType": "staff",
+    "requestDate": "2026-02-03",
+
+    "staff": {
+      "staffId": "STF001",
+      "name": "T.Christopher",
+      "designation": "Associate Professor",
+      "department": "Information Technology"
+    },
+
+    "book": {
+      "accessionNo": "54230",
+      "title": "Operating System Concepts",
+      "author": "Silberschatz",
+      "publication": "Wiley",
+      "edition": "9th Edition"
+    }
+  }
+]

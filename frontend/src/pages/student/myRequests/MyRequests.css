@@ -1,0 +1,48 @@
+.my-requests {
+  padding: 20px;
+}
+
+.page-title {
+  color: var(--darkerTextColor);
+  margin-bottom: 5px;
+}
+
+.page-subtitle {
+  color: var(--darkTextColor);
+  margin-bottom: 30px;
+}
+
+/* Table */
+.requests-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--bgColor);
+}
+
+.requests-table th,
+.requests-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--lightTextColor);
+}
+
+.requests-table th {
+  background-color: var(--smallCardColor);
+  color: var(--darkerTextColor);
+}
+
+/* Status colors */
+.status-pending {
+  color: orange;
+  font-weight: 600;
+}
+
+.status-approved {
+  color: green;
+  font-weight: 600;
+}
+
+.status-rejected {
+  color: red;
+  font-weight: 600;
+}

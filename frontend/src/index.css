@@ -1,0 +1,79 @@
+/* website color combination goes here */
+:root {
+  --bgColor: #ffffe3;
+  --headerColor: #6d8196;
+  --footerColor: #6d8196;
+  --darkTextColor: #4a4a4a;
+  --lightTextColor: #cbcbcb;
+  --brightTextColor: #ffffe3;
+  --darkerTextColor: #0f2854;
+  --smallCardColor: #d0eef7;
+  --lightbgColor : #CEF5E8;
+  --lightGradientColor: linear-gradient(90deg,rgba(151, 148, 255, 1) 0%, rgba(184, 216, 255, 1) 35%, rgba(112, 236, 255, 1) 100%);
+}
+
+/* general css goes here */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "poppins", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  background-color: var(--bgColor);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  cursor: pointer;
+}
+
+/* =========================================
+   GLOBAL DATA TABLE STYLES (SCROLLING ETC)
+   ========================================= */
+
+/* Scroll ONLY the results */
+.table-wrapper {
+  max-height: 520px; /* ~25 rows */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Fixed layout prevents overflow */
+.fixed-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.fixed-table th,
+.fixed-table td {
+  word-wrap: break-word;
+  white-space: normal;
+  font-size: 14px;
+}

@@ -1,0 +1,43 @@
+/* Footer base */
+.general-footer {
+  background-color: var(--darkerTextColor);
+  color: var(--brightTextColor);
+}
+
+/* Titles */
+.general-footer-title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--brightTextColor);
+}
+
+/* Text */
+.general-footer p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--brightTextColor);
+}
+
+/* Home button */
+.general-home-btn {
+  background-color: var(--brightTextColor);
+  color: var(--darkerTextColor);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  transition: 0.3s;
+}
+
+.general-home-btn:hover {
+  transform: scale(1.05);
+  box-shadow: #4a4a4a 0px 5px 15px;
+}
+
+/* Bottom bar */
+.general-footer-bottom {
+  border-top: 1px solid rgba(255, 255, 227, 0.2);
+  font-size: 13px;
+}

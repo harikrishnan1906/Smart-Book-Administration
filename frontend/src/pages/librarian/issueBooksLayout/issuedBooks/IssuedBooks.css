@@ -1,0 +1,22 @@
+.issued-books-card {
+  border-radius: 12px;
+  background-color: var(--bgColor);
+}
+
+.issued-card {
+  background-color: var(--lightbgColor);
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.issued-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.issued-row .label {
+  font-weight: 600;
+  color: var(--darkerTextColor);
+}

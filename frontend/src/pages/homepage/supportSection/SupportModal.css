@@ -1,0 +1,69 @@
+/* Section */
+#support {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Wrapper */
+.support-wrapper {
+  border: 2px solid var(--darkerTextColor);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: var(--darkerTextColor) 0px 5px 15px;
+}
+
+/* Image */
+.support-image {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 20px;
+}
+
+/* Form */
+.support-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Title */
+.support-form-title {
+  font-size: 2.3rem;
+  color: var(--darkerTextColor);
+  margin-bottom: 10px;
+}
+
+/* Inputs */
+.support-form input,
+.support-form textarea {
+  padding: 14px 18px;
+  border-radius: 30px;
+  border: none;
+  background-color: #f1f1f1;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+/* Textarea */
+.support-form textarea {
+  border-radius: 20px;
+  height: 130px;
+  resize: none;
+}
+
+/* Submit button */
+.support-submit-btn {
+  background-color: var(--darkerTextColor);
+  color: var(--brightTextColor);
+  font-size: 1.1rem;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.support-submit-btn:hover {
+  background-color: var(--headerColor);
+  transform: translateY(-2px);
+}

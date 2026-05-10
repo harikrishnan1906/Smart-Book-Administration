@@ -1,0 +1,61 @@
+.delete-books-card {
+  border-radius: 12px;
+  border: none;
+  background-color: var(--bgColor);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.section-heading {
+  font-weight: 600;
+  color: var(--darkerTextColor);
+}
+
+/* Table header */
+.table-header {
+  background-color: var(--headerColor);
+  color: var(--brightTextColor);
+}
+
+/* Modal backdrop */
+.modal-backdrop-custom {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+}
+
+/* Modal dialog */
+.modal-dialog-custom {
+  background-color: var(--bgColor);
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Modal content */
+.modal-content {
+  border: none;
+}
+
+
+/* Mobile book card */
+.book-card {
+  background-color: var(--lightbgColor);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.book-card-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.book-card-row .label {
+  font-weight: 600;
+  color: var(--darkerTextColor);
+}

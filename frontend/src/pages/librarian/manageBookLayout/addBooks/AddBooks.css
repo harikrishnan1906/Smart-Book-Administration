@@ -1,0 +1,26 @@
+.add-book-card {
+  border-radius: 12px;
+  border: none;
+  background-color: var(--bgColor);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.section-heading {
+  font-weight: 600;
+  color: var(--darkerTextColor);
+}
+
+/* Improve floating label spacing on mobile */
+.form-floating > label {
+  color: var(--darkTextColor);
+}
+
+/* Button consistency */
+.btn-primary {
+  background-color: var(--headerColor);
+  border: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}

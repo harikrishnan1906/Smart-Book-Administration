@@ -1,0 +1,106 @@
+/* Root container */
+.librarian-dashboard {
+  min-height: 100vh;
+  background-color: var(--bgColor);
+}
+
+/* Sidebar */
+.librarian-sidebar {
+  min-width: 250px;
+  background-color: var(--headerColor);
+  color: var(--brightTextColor);
+}
+
+/* Sidebar title */
+.librarian-title {
+  color: var(--brightTextColor);
+  font-weight: 600;
+}
+
+/* Sidebar links */
+.librarian-sidebar .nav-link {
+  color: var(--lightTextColor);
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  transition: all 0.3s ease;
+}
+
+.librarian-sidebar .nav-link:hover {
+  background-color: var(--smallCardColor);
+  color: var(--darkerTextColor);
+}
+
+.librarian-sidebar .nav-link.active {
+  background-color: var(--lightbgColor);
+  color: var(--darkerTextColor);
+  font-weight: 500;
+}
+
+/* Main area */
+.librarian-main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.librarian-header {
+  background-color: var(--headerColor);
+  
+}
+
+/* Content area */
+.librarian-content {
+  background-color: var(--bgColor);
+  min-height: calc(100vh - 70px);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .librarian-sidebar {
+    position: fixed;
+    left: -260px;
+    top: 0;
+    height: 100%;
+    z-index: 1050;
+    transition: left 0.3s ease;
+  }
+
+  .librarian-sidebar.show {
+    left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+    .librarian-dashboard-header-title{
+        display: none;
+    }
+    .librarian-header{
+      height: 38px;
+    }
+}
+
+.modal-backdrop-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+}
+
+.modal-dialog-custom {
+  max-width: 420px;
+  width: 90%;
+}
+
+
+
+.custom-lib-logout-btn:hover{
+   background-color: var(--smallCardColor) !important;
+  color: var(--darkerTextColor);
+}

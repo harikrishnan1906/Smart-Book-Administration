@@ -1,0 +1,65 @@
+/* Heading */
+.dashboard-heading {
+  color: var(--darkerTextColor);
+  font-weight: 600;
+}
+
+.dashboard-subtext {
+  color: var(--darkTextColor);
+  font-size: 14px;
+}
+
+/* Card */
+.dashboard-card {
+  background-color: var(--smallCardColor);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+
+}
+
+/* Icon */
+.card-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--brightTextColor);
+  font-size: 20px;
+}
+
+/* Icon colors */
+.bg-books {
+  background: var(--headerColor);
+}
+
+.bg-issued {
+  background: #ff8c42;
+}
+
+.bg-available {
+  background: #4caf50;
+}
+
+.bg-students {
+  background: #6a5acd;
+}
+.bg-returned{
+  background: #4caf50;
+}
+.bg-staff {
+  background: #ff8c42;
+
+}

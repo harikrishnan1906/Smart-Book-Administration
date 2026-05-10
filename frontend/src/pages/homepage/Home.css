@@ -1,0 +1,14 @@
+/* website color combination goes here */
+:root {
+  --bgColor: #ffffe3;
+  --headerColor: #6d8196;
+  --footerColor: #6d8196;
+  --darkTextColor: #4a4a4a;
+  --lightTextColor: #cbcbcb;
+  --brightTextColor: #ffffe3;
+  --darkerTextColor: #0f2854;
+  --smallCardColor: #d0eef7;
+}
+
+
+

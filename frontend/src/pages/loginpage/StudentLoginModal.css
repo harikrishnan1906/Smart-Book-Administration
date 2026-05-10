@@ -1,0 +1,5 @@
+.custom-student-login-modal{
+     background : var(--lightGradientColor);
+    color: var(--brightTextColor);
+    border: none;
+}

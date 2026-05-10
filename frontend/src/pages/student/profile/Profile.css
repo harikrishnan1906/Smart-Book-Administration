@@ -1,0 +1,42 @@
+.student-profile {
+  padding: 20px;
+}
+
+.page-title {
+  color: var(--darkerTextColor);
+  margin-bottom: 5px;
+}
+
+.page-subtitle {
+  color: var(--darkTextColor);
+  margin-bottom: 30px;
+}
+
+/* Profile card */
+.profile-card {
+  background-color: var(--smallCardColor);
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+/* Rows */
+.profile-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--lightTextColor);
+}
+
+.profile-row span {
+  font-weight: 600;
+  color: var(--darkTextColor);
+}
+
+.profile-row p {
+  color: var(--darkerTextColor);
+}
+
+.profile-row:last-child {
+  border-bottom: none;
+}

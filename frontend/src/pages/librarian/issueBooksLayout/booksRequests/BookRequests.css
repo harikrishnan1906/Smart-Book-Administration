@@ -1,0 +1,23 @@
+.book-requests-card {
+  border-radius: 12px;
+  background-color: var(--bgColor);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.request-card {
+  background-color: var(--lightbgColor);
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.request-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.request-row .label {
+  font-weight: 600;
+  color: var(--darkerTextColor);
+}

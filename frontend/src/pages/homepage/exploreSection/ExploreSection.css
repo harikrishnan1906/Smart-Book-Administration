@@ -1,0 +1,77 @@
+/* Section */
+#explore {
+  background-color: var(--brightTextColor);
+  color: var(--darkerTextColor);
+}
+
+/* Wrapper */
+/* .explore-wrapper {
+  padding: 40px 20px;
+} */
+
+/* Title */
+.explore-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+/* Description */
+.explore-description {
+  max-width: 650px;
+  font-size: 1rem;
+}
+
+/* Card */
+.explore-card {
+  background-color: var(--darkerTextColor);
+  color: var(--brightTextColor);
+  padding: 25px;
+  border-radius: 20px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.explore-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px var(--darkerTextColor);
+}
+
+/* Card title */
+.explore-card-title {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+/* List */
+.explore-card ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.explore-card li {
+  margin-bottom: 8px;
+}
+
+/* Button container */
+.explore-btn-container {
+  background-color: var(--footerColor);
+  max-width: 190px;
+  padding: 18px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.explore-btn-container:hover {
+  background-color: var(--bgColor);
+  box-shadow: var(--brightTextColor) 0px 5px 15px;
+  transform: scale(1.15);
+}
+
+/* Button */
+.explore-register-btn {
+  background-color: var(--darkerTextColor);
+  color: var(--brightTextColor);
+  font-size: 1.1rem;
+  border: none;
+  width: 150px;
+}

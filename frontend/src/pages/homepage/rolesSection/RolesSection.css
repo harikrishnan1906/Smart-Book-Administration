@@ -1,0 +1,61 @@
+/* Section */
+#roles {
+  margin-top: 50px;
+  padding-top: 60px !important;
+  padding-bottom: 90px !important;
+  margin-bottom: 30px;
+  background-color: var(--darkerTextColor);
+  color: var(--brightTextColor);
+}
+
+/* Title */
+.roles-title {
+  color: var(--brightTextColor);
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+/* Card */
+.roles-card {
+  background-color: var(--brightTextColor);
+  color: var(--darkerTextColor);
+  padding: 30px 25px;
+  border-radius: 20px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+/* Hover */
+.roles-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(162, 162, 163, 0.3);
+}
+
+/* Icon */
+.roles-icon {
+  font-size: 2.2rem;
+  background-color: var(--darkerTextColor);
+  color: var(--brightTextColor);
+  padding: 15px;
+  width: 67px;
+  border-radius: 20px;
+}
+
+/* Title */
+.roles-card-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+/* List */
+.roles-card-list {
+  margin-top: 15px;
+  padding-left: 20px;
+  text-align: left;
+  list-style: square;
+}
+
+.roles-card-list li {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}

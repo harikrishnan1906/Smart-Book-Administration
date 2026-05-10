@@ -1,0 +1,54 @@
+.search-books-card {
+  border-radius: 12px;
+  background-color: var(--bgColor);
+  border: none;
+  overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+.section-heading {
+  font-weight: 600;
+}
+
+.table-header {
+  background-color: var(--headerColor);
+  color: var(--brightTextColor);
+}
+
+/* Scroll ONLY the results */
+.table-wrapper {
+  max-height: 520px; /* ~25 rows */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Fixed layout prevents overflow */
+.fixed-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.fixed-table th,
+.fixed-table td {
+  word-wrap: break-word;
+  white-space: normal;
+  font-size: 14px;
+}
+
+/* Clickable rows */
+.clickable-row {
+  cursor: pointer;
+}
+
+.clickable-row:hover {
+  background-color: #f4f6f8;
+}
+
+/* Column toggle */
+.column-toggle {
+  font-size: 14px;
+}
+
+/* Modal width */
+.modal-lg-custom {
+  max-width: 720px;
+}

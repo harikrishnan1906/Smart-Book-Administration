@@ -1,0 +1,22 @@
+.admin-navbar {
+  background-color: #ffffff;
+}
+
+.admin-navbar .nav-link {
+  color: #555;
+  font-weight: 500;
+}
+
+.admin-navbar .nav-link.active {
+  color: #0d6efd;
+  border-bottom: 2px solid #0d6efd;
+}
+
+.admin-search {
+  width: 200px;
+}
+
+.admin-content {
+  min-height: calc(100vh - 70px);
+  background-color: #f8f9fa;
+}

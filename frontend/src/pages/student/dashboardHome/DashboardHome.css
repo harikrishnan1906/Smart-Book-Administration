@@ -1,0 +1,37 @@
+.dashboard-home {
+  padding: 20px;
+}
+
+.dashboard-title {
+  color: var(--darkerTextColor);
+  margin-bottom: 5px;
+}
+
+.dashboard-subtitle {
+  color: var(--darkTextColor);
+  margin-bottom: 30px;
+}
+
+/* Cards */
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.dashboard-card {
+  background-color: var(--smallCardColor);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.dashboard-card h4 {
+  color: var(--darkTextColor);
+  margin-bottom: 10px;
+}
+
+.dashboard-card span {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--darkerTextColor);
+}

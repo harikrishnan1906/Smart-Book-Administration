@@ -1,0 +1,13 @@
+{
+  "id": "01",
+  "LibName": "Soranamageswari",
+  "LibStaffId": "LIB001",
+  "LibEmail": "itdeptcbe@gmail.com",
+  "LibPassword": "itLib2026",
+  "LibMobile": "9842941360",
+  "LibDesignation": "Associate Professor",
+  "LibDepartment": "Information Technology",
+  "LibJoiningDate": "2018-06-15",
+  "LibProfileImage": "/src/assets/soranaProfile.jpeg",
+  "LibIdProof": "/images/librarian-avatar.png"
+}

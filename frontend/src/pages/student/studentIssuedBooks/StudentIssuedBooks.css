@@ -1,0 +1,42 @@
+.issued-books {
+  padding: 20px;
+}
+
+.page-title {
+  color: var(--darkerTextColor);
+  margin-bottom: 5px;
+}
+
+.page-subtitle {
+  color: var(--darkTextColor);
+  margin-bottom: 30px;
+}
+
+/* Table */
+.issued-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--bgColor);
+}
+
+.issued-table th,
+.issued-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--lightTextColor);
+}
+
+.issued-table th {
+  background-color: var(--smallCardColor);
+  color: var(--darkerTextColor);
+}
+
+.status-issued {
+  color: green;
+  font-weight: 600;
+}
+
+.status-overdue {
+  color: red;
+  font-weight: 600;
+}
