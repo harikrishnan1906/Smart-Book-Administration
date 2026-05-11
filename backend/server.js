@@ -20,7 +20,7 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://smart-book-administration.onrender.com",
+  "https://smart-book-administration.vercel.app",
   process.env.FRONTEND_URL,
 ].filter(Boolean);
 
