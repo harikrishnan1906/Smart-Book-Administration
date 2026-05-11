@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./LibrarianProfile.css";
 import api from "../../../services/api";
 import ChangePassword from "../../../components/ChangePassword";
+import profilePic from "../../../assets/userAvatar.png";
 
 const LibrarianProfile = () => {
   const [librarian, setLibrarian] = useState(null);
@@ -30,7 +31,7 @@ const LibrarianProfile = () => {
   useEffect(() => {
     const fetchProfile = async () => {
       try {
-        const res = await api.get('/users/me');
+        const res = await api.get("/users/me");
         setLibrarian(res.data);
       } catch (err) {
         console.error("Failed to fetch librarian profile:", err);
@@ -48,16 +49,19 @@ const LibrarianProfile = () => {
 
   const handleSave = async () => {
     try {
-      const res = await api.put('/users/me/profile', {
+      const res = await api.put("/users/me/profile", {
         fullName: librarian.fullName,
         mobile: librarian.mobile,
         designation: librarian.designation,
-        departmentId: librarian.departmentId
+        departmentId: librarian.departmentId,
       });
       setLibrarian(res.data.user);
       setShowEditModal(false);
     } catch (err) {
-      alert("Failed to update profile: " + (err.response?.data?.message || err.message));
+      alert(
+        "Failed to update profile: " +
+          (err.response?.data?.message || err.message),
+      );
     }
   };
 
@@ -66,7 +70,9 @@ const LibrarianProfile = () => {
   }
 
   if (!librarian) {
-    return <div className="p-4 text-center text-danger">Failed to load profile.</div>;
+    return (
+      <div className="p-4 text-center text-danger">Failed to load profile.</div>
+    );
   }
 
   return (
@@ -92,10 +98,12 @@ const LibrarianProfile = () => {
         {/* LEFT: PHOTO */}
         <div className="col-12 col-md-4 text-center">
           <img
-            src={librarian.profilePic || "/images/librarian-avatar.png"}
+            src={librarian.profilePic || profilePic}
             alt="Librarian"
             className="profile-avatar"
-            onError={(e) => { e.target.src = "/src/assets/soranaProfile.jpeg"; }}
+            onError={(e) => {
+              e.target.src = profilePic;
+            }}
           />
           <h6 className="mt-3 mb-1">{librarian.fullName}</h6>
           <small className="text-muted">{librarian.designation}</small>
@@ -108,8 +116,14 @@ const LibrarianProfile = () => {
             <ProfileRow label="Email" value={librarian.email} />
             <ProfileRow label="Mobile" value={librarian.mobile} />
             <ProfileRow label="Department" value={librarian.departmentId} />
-            <ProfileRow label="Role" value={<span className="text-capitalize">{librarian.role}</span>} />
-            <ProfileRow label="Joined" value={new Date(librarian.createdAt).toLocaleDateString()} />
+            <ProfileRow
+              label="Role"
+              value={<span className="text-capitalize">{librarian.role}</span>}
+            />
+            <ProfileRow
+              label="Joined"
+              value={new Date(librarian.createdAt).toLocaleDateString()}
+            />
           </div>
         </div>
       </div>
