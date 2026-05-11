@@ -1,40 +1,40 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 
-import Home from "./pages/homepage/Home.jsx";
+import Home from "./pages/homepage/Home";
 
 /* Student */
-import DashboardHome from "./pages/student/DashboardHome/DashboardHome.jsx";
+import DashboardHome from "./pages/student/dashboardHome/DashboardHome";
 import StudentDashboardLayout from "./pages/student/studentDashboardLayout/StudentDashboardLayout.jsx";
-import BrowseBooks from "./pages/student/browseBooks/BrowseBooks.jsx";
+import BrowseBooks from "./pages/student/browseBooks/BrowseBooks";
 import StudentIssuedBooks from "./pages/student/studentIssuedBooks/StudentIssuedBooks.jsx";
-import MyRequests from "./pages/student/myRequests/MyRequests.jsx";
-import Profile from "./pages/student/profile/Profile.jsx";
+import MyRequests from "./pages/student/myRequests/MyRequests";
+import Profile from "./pages/student/profile/Profile";
 
 /* Librarian */
-import LibrarianDashboardLayout from "./pages/librarian/librarianDashboardLayout/LibrarianDashboardLayout.jsx";
+import LibrarianDashboardLayout from "./pages/librarian/librarianDashboardLayout/LibrarianDashboardLayout";
 import ManageBooksLayout from "./pages/librarian/manageBookLayout/ManageBooksLayout.jsx";
-import AddBooks from "./pages/librarian/manageBookLayout/addBooks/AddBooks.jsx";
-import DeleteBooks from "./pages/librarian/manageBookLayout/deleteBooks/DeleteBooks.jsx";
-import SearchBooks from "./pages/librarian/manageBookLayout/searchBooks/SearchBooks.jsx";
-import DeletedBooks from "./pages/librarian/manageBookLayout/deletedBooks/DeletedBooks.jsx";
-import LibrarianDashboardHome from "./pages/librarian/librarianDashboardHome/LibrarianDashboardHome.jsx";
-import LibrarianProfile from "./pages/librarian/librarianProfile/LibrarianProfile.jsx";
-import IssueBooksLayout from "./pages/librarian/issueBooksLayout/IssueBooksLayout.jsx";
-import BookRequests from "./pages/librarian/issueBooksLayout/booksRequests/BookRequests.jsx";
-import IssuedBooks from "./pages/librarian/issueBooksLayout/issuedBooks/IssuedBooks.jsx";
-import ReturnedBooks from "./pages/librarian/issueBooksLayout/returnBooks/ReturnedBooks.jsx";
+import AddBooks from "./pages/librarian/manageBookLayout/addBooks/AddBooks";
+import DeleteBooks from "./pages/librarian/manageBookLayout/deleteBooks/DeleteBooks";
+import SearchBooks from "./pages/librarian/manageBookLayout/searchBooks/SearchBooks";
+import DeletedBooks from "./pages/librarian/manageBookLayout/deletedBooks/DeletedBooks";
+import LibrarianDashboardHome from "./pages/librarian/librarianDashboardHome/LibrarianDashboardHome";
+import LibrarianProfile from "./pages/librarian/librarianProfile/LibrarianProfile";
+import IssueBooksLayout from "./pages/librarian/issueBooksLayout/IssueBooksLayout";
+import BookRequests from "./pages/librarian/issueBooksLayout/booksRequests/BookRequests";
+import IssuedBooks from "./pages/librarian/issueBooksLayout/issuedBooks/IssuedBooks";
+import ReturnedBooks from "./pages/librarian/issueBooksLayout/returnBooks/ReturnedBooks";
 
 /* Admin */
-import AdminDashboardLayout from "./pages/admin/layout/AdminDashboardLayout.jsx";
-import Dashboard from "./pages/admin/pages/dashboard/Dashboard.jsx";
-import Users from "./pages/admin/pages/users/Users.jsx";
-import Books from "./pages/admin/pages/books/Books.jsx";
-import Reports from "./pages/admin/pages/reports/Reports.jsx";
-import ActivityLog from "./pages/admin/pages/activityLog/ActivityLog.jsx";
-import SystemSettings from "./pages/admin/pages/systemSettings/SystemSettings.jsx";
-import AdminProfile from "./pages/admin/pages/adminProfile/AdminProfile.jsx";
-import PendingApprovals from "./pages/admin/pages/pendingApprovals/PendingApprovals.jsx";
+import AdminDashboardLayout from "./pages/admin/layout/AdminDashboardLayout";
+import Dashboard from "./pages/admin/pages/dashboard/Dashboard";
+import Users from "./pages/admin/pages/users/Users";
+import Books from "./pages/admin/pages/books/Books";
+import Reports from "./pages/admin/pages/reports/Reports";
+import ActivityLog from "./pages/admin/pages/activityLog/ActivityLog";
+import SystemSettings from "./pages/admin/pages/systemSettings/SystemSettings";
+import AdminProfile from "./pages/admin/pages/adminProfile/AdminProfile";
+import PendingApprovals from "./pages/admin/pages/pendingApprovals/PendingApprovals";
 
 function App() {
   return (
