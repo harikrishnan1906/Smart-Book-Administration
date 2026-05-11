@@ -16,13 +16,11 @@ const userRoutes = require("./routes/userRoutes");
 const bookRoutes = require("./routes/bookRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 
-
-
-
 const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
+  "https://smart-book-administration.onrender.com",
   process.env.FRONTEND_URL,
 ].filter(Boolean);
 
@@ -35,7 +33,7 @@ app.use(
       return callback(new Error("Not allowed by CORS"));
     },
     credentials: true,
-  })
+  }),
 );
 app.use(express.json());
 app.use(cookieParser());
@@ -55,15 +53,12 @@ app.get("/health", (req, res) => {
 
 // connect DB
 mongoose
-  .connect(process.env.MONGO_URI, { 
-    serverSelectionTimeoutMS: 5000, 
-    family: 4 
+  .connect(process.env.MONGO_URI, {
+    serverSelectionTimeoutMS: 5000,
+    family: 4,
   })
   .then(() => console.log("MongoDB connected successfully"))
   .catch((err) => console.error("MongoDB connection error:", err));
-
- 
-
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
