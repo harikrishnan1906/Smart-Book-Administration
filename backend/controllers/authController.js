@@ -2,6 +2,16 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 
+const getCookieOptions = () => {
+  const isProduction = process.env.NODE_ENV === "production";
+
+  return {
+    httpOnly: true,
+    secure: isProduction,
+    sameSite: isProduction ? "none" : "lax",
+  };
+};
+
 // ---------------- ADMIN LOGIN ----------------
 exports.adminLogin = (req, res) => {
   const { email, password } = req.body;
@@ -15,8 +25,7 @@ exports.adminLogin = (req, res) => {
     });
 
     res.cookie("token", token, {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
+      ...getCookieOptions(),
       maxAge: 24 * 60 * 60 * 1000,
     });
 
@@ -58,8 +67,7 @@ exports.userLogin = async (req, res) => {
     );
 
     res.cookie("token", token, {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
+      ...getCookieOptions(),
       maxAge: 24 * 60 * 60 * 1000,
     });
 
@@ -75,9 +83,6 @@ exports.userLogin = async (req, res) => {
 
 // ---------------- LOGOUT ----------------
 exports.logout = (req, res) => {
-  res.clearCookie("token", {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
-  });
+  res.clearCookie("token", getCookieOptions());
   res.json({ success: true, message: "Logged out successfully" });
 };

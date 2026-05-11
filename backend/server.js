@@ -21,12 +21,18 @@ const adminRoutes = require("./routes/adminRoutes");
 
 const app = express();
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  process.env.FRONTEND_URL,
+].filter(Boolean);
+
 // middleware
 app.use(
   cors({
     origin: function (origin, callback) {
       if (!origin) return callback(null, true);
-      return callback(null, true);
+      if (allowedOrigins.includes(origin)) return callback(null, true);
+      return callback(new Error("Not allowed by CORS"));
     },
     credentials: true,
   })
@@ -44,7 +50,7 @@ app.use("/api/reports", reportRoutes);
 
 // test route
 app.get("/health", (req, res) => {
-  res.send("Backend & DB connected 🚀");
+  res.send("Backend & DB connected ");
 });
 
 // connect DB
